@@ -1,0 +1,42 @@
+# Build outputs
+out/
+out-build/
+out-vscode/
+out-vscode-reh/
+out-vscode-reh-web/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Generated files
+*.generated.*
+**/*.generated.*
+
+# Third-party/vendor code
+**/third-party/
+
+# Test outputs
+coverage/
+.nyc_output/
+
+# Build artifacts
+.build/
+dist/
+
+# Extension media (generated)
+extensions/**/media/
+
+# Monaco editor generated files
+src/vs/editor/standalone/standalone-*.ts
+
+# Generated grammar files
+extensions/**/syntaxes/**/*.tmLanguage.json
+extensions/**/syntaxes/**/*.tmTheme.json
+
+# Generated localization files
+extensions/**/i18n/
+
+# Platform-specific generated files
+**/*.d.ts.map
+
